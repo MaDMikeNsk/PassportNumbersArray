@@ -14,8 +14,9 @@ public class Main {
             System.out.println("");
             for (int j=0; j<lastYear-firstYear; j++){  //Кол-во столбцов = кол-во лет в период с firstYear до lastYear
                 years[j] = Integer.toString(firstYear + j);
+                //Элемент матрицы - 2 цифры региона + посл. две цифры года
                 passportSeries[i][j] = regionCodes[i] + years[j].substring(years[j].length() - 2);
-                System.out.format(passportSeries[i][j] + " ");
+                System.out.print(passportSeries[i][j] + " ");
             }
         }
     }
