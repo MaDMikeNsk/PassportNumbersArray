@@ -1,3 +1,5 @@
+//[M5_L2]Создать и распечатать массив серий паспортов гражданина РФ.
+
 import java.util.Calendar;
 
 public class Main {
